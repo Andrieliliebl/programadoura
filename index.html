@@ -7,144 +7,227 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/pp-gatwick" rel="stylesheet">
+
     <title>home</title>
 </head>
 
 <body>
+    <div class="body-color container-fluid">
 
+        <nav class="my-nav navbar fixed-top m-0">
 
-    <nav class="menu navbar fixed-top">
-        <div class="container-fluid">
-            <div class="row col-12 m-0">
-                <div class="col-2 m-0 menu-name">
-                    <a class="menu-name navbar-brand justify-content-start m-0" href="index.html">ANDRIELI
-                        LIEBL</a>
+            <div class="col-2">
+                <a class="nav-name navbar-brand d-flex justify-content-start m-0" href="index.html">PROGRAMADOURA</a>
+            </div>
+
+            <div class="col-10 d-none d-md-none d-lg-flex justify-content-end">
+                <a class="nav-link" href="#about-me-section">SOBRE MIM</a>
+                <a class="nav-link" href="#my-projects-section">PROJETOS</a>
+                <a class="nav-link" href="#my-resume">CURRÍCULO</a>
+                <a class="nav-link" href="https://bit.ly/46ArYYY" target="_blank">CONTATO</a>
+            </div>
+
+            <div class="col-10 button-style container-fluid d-flex d-md-flex d-lg-none justify-content-end m-0">
+                <button class="button-style navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="button-style navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas-style offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about-me-section">SOBRE MIM</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#my-projects-section">PROJETOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#my-resume">CURRÍCULO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#my-contact-section">CONTATO</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-10">
-                    <div class="menu-links navbar d-none d-md-block m-0 justify-content-center">
-                        <div class="row m-0">
-                            <div class="col-12">
-                                <a href="programadora.html">PROGRAMADORA</a>
-                                <a href="marketeira.html">MARKETEIRA</a>
-                                <a href="curriculo.html">CURRÍCULO</a>
-                                <a href="contato.html">CONTATO</a>
+            </div>
+        </nav>
+
+
+        <section class="hero m-0">
+            <h5 class="d-flex justify-content-center m-0">Do marketing à programação:</h5>
+            <h3 class="d-flex justify-content-center m-0 display-3">TRANSFORMO</h3>
+            <h1 class="d-flex justify-content-center m-0 display-1">IDEIAS <br>CRIATIVAS
+                <spam class="d-flex m-0 display-6">EM</spam>
+            </h1>
+            <h2 class="d-flex justify-content-center m-0 display-1">REALIDADE DIGITAL</h2>
+        </section>
+
+        <section id="about-me-section" class="about-me container-fluid m-0">
+            <div class="text-tittle m-0 d-flex justify-content-center">
+                <h1>SOBRE MIM</h1>
+            </div>
+            <div class="text-content m-0 d-flex justify-content-center">
+                <p> Olá, sou Andrieli, uma profissional com anos de imersão em marketing, gerando estratégias
+                    envolventes e conquistando resultados marcantes para as marcas que representei. Hoje, busco um novo
+                    caminho na
+                    minha carreira, <strong>apostando em uma empolgante jornada no desenvolvimento
+                        front-end.<br></strong>
+                    Minha transição é impulsionada pela paixão por desafios criativos e pela determinação em aprender e
+                    crescer constantemente. Assim como no marketing, a programação exige pensamento estratégico, solução
+                    de
+                    problemas e criatividade. <strong> <br>Estou ansiosa para combinar minha experiência anterior com as
+                        novas habilidades que tenho praticado diariamente: </strong>
+                </p>
+            </div>
+            <div class="intro-skills container-fluid m-0">
+                <p>
+                    <spam class="lucidity">HTML</spam>
+                    <spam class="dot"> • </spam>
+                    <spam class="seasons">CSS</spam>
+                    <spam class="dot"> • </spam>
+                    <spam class="open">JAVASCRIPT</spam>
+                    <spam class="dot"> • </spam> <br>
+                    <spam class="seasons">TYPESCRIPT</spam>
+                    <spam class="dot"> • </spam>
+                    <spam class="lucidity">JAVA</spam>
+                    <spam class="dot"> • </spam>
+                    <spam class="gatwick">BOOTSTRAP</spam>
+                    <spam class="dot"> • </spam> <br>
+                    <spam class="lucidity">ANGULAR</spam>
+                    <spam class="dot"> • </spam>
+                    <spam class="seasons">REACT</spam>
+                    <spam class="dot"> • </spam>
+                    <spam class="gatwick">API REST</spam>
+                    <spam class="dot"> • </spam> <br>
+                    <spam class="open">VSCODE</spam>
+                    <spam class="dot"> • </spam>
+                    <spam class="lucidity">GIT E GITHUB</spam>
+                    <spam class="dot"> • </spam>
+                    <spam class="seasons">INTELLIJ</spam>
+                    <spam class="dot"> • </spam>
+                </p>
+            </div>
+        </section>
+
+        <section id="my-projects-section" class="my-projects container-fluid m-0">
+            <div class="projects-tittle">
+                <h1>Projetos</h1>
+            </div>
+            <div class="dev-cards container-fluid d-flex justify-content-center">
+                <div class="row">
+                    <div class="card-style card m-4" style="width: 25rem;">
+                        <img src="assets/dev-card-pizzaria.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizzaria Garagem 70</h5>
+                            <p class="card-text">Website reponsivo para uma rede de pizzarias. <br> HTML | CSS |
+                                JavaScript | Bootstrap.</p>
+                            <a href="https://github.com/Andrieliliebl" target="_blank" class="btn botton">Ver no
+                                github</a>
+                        </div>
+                    </div>
+
+                    <div class="card-style card m-4" style="width: 25rem;">
+                        <img src="assets/dev-card-marcelo.png" class="card-img-top" alt="background do site">
+                        <div class="card-body">
+                            <h5 class="card-title">Marcelo Kouto Fotografia</h5>
+                            <p class="card-text"> Website responsivo para um fotografo. <br> HTML | CSS3 | Bootstrap.
+                            </p>
+                            <a href="https://github.com/Andrieliliebl/Mkouto-photography" target="_blank"
+                                class="btn botton ">Ver no
+                                Github</a>
+                        </div>
+                    </div>
+                    <div class="card-style card m-4" style="width: 25rem;">
+                        <img src="assets/dev-card-news.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Daily notícias</h5>
+                            <p class="card-text">Projeto pessoal de intregação com api de notícias. <br> HTML | CSS
+                                |JavaScript | Angular</p>
+                            <a href="https://github.com/Andrieliliebl" target="_blank" class="btn botton">Ver no
+                                Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="my-resume" class="my-resume m-0">
+            <div class="resume-tittle d-flex justify-content-center">CURRÍCULO</div>
+            <div class="card-container container-fluid">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-end">
+                        <div class="card resume-card">
+                            <div class="card-body">
+                                <h5 class="card-tittle">ENGLISH RESUME</h5>
+                                <p class="card-text">Download my resume or take a look at my LinkedIn profile:</p>
+                                <a href="#" class="card-link">RESUME</a>
+                                <a href="https://www.linkedin.com/in/andrieliliebl/?locale=en_US"
+                                    class="card-link">LINKEDIN</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex justify-content-start">
+                        <div class="card resume-card">
+                            <div class="card-body">
+                                <h5 class="card-tittle">CURRÍCULO EM PORTUGUÊS</h5>
+                                <p class="card-text">Baixe meu currículo ou dê uma olhada no meu perfil no LinkedIn:</p>
+                                <a href="#" class="card-link">CURRÍCULO</a>
+                                <a href="https://www.linkedin.com/in/andrieliliebl/" class="card-link">LINKEDIN</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
+        </section>
 
 
-            <button class="d-sm-block d-md-none btn-no-border navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-body menu-mobile">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">programadora</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">marketeira</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">currículo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">contato</a>
-                        </li>
-                    </ul>
+        <footer class="footer">
+            <nav class="row">
+                <div class="container d-flex justify-content-center py-2">
+                    <a class="footer-name nav-link active" aria-current="page" href="#">
+                        <h1>PROGRAMADOURA</h1>
+                    </a>
                 </div>
-            </div>
-        </div>
-    </nav>
-
-
-    <div class="hero-mob container-fluid d-md-block d-lg-none">
-        <div class="hero-up">
-            <p>De marketeira à <strong>programadora:</strong></p>
-            <h1> TRANSFORMO IDEIAS CRIATIVAS <br> EM REALIDADE DIGITAL</h1>
-            <p>Desenvolvimento <strong>front-end.</strong>
-        </div>
-        <div class="hero-down">
-            <img src="assets/hero-down.png">
-
-        </div>
-    </div>
-
-    <div class="hero container-fluid d-none d-lg-block m-0">
-        <div class="row">
-            <div class="hero-left col-6">
-                <div class="hero-info">
-                    <p>De marketeira à programadora:</p>
-                    <h1> Transformo ideias criativas <br> em realidade digital</h1>
-                    <p>Desenvolvimento front-end.</p>
+            </nav>
+            <nav class="row">
+                <div class="container-fluid d-flex justify-content-center py-2">
+                    <a class="nav-link active" href="https://www.instagram.com/andrieliliebl/" target="_blank">
+                        <img src="assets/menu-instagram.png" width="50">
+                    </a>
+                    <a class="nav-link active" href="https://www.linkedin.com/in/andrieliliebl/" target="_blank">
+                        <img src="assets/menu-linkedin.png" width="50">
+                    </a>
+                    <a class="nav-link active" href="https://github.com/Andrieliliebl" target="_blank">
+                        <img src="assets/menu-git.png" width="50">
+                    </a>
                 </div>
-            </div>
-            <div class="hero-right col-6">
-                <img src="assets/hero-right.png">
-            </div>
-        </div>
-
-
-        <!--
-
-
-    <div class="intro container-fluid">
-
-       
-    </div>
-
-        <div class="row">
-            <div class="intro-about-me col-12 justify-content-center">
-                <h2>About me</h2>
-                <p> </p>
-            </div>
-        </div>
-        <div class="row intro-skills">
-            <div class="col-2 intro-skill">
-                <p>BOOSTRAP</p>
-            </div>
-            <div class="col-2 intro-skill">
-                <p>REACT</p>
-            </div>
-            <div class="col-2 intro-skill">
-                <p>ANGULAR</p>
-            </div>
-            <div class="col-2 intro-skill">
-                <p>JAVASCRIPT</p>
-            </div>
-            <div class="col-2 intro-skill">
-                <p>HTML</p>
-            </div>
-            <div class="col-2 intro-skill">
-                <p>CSS</p>
-            </div>
-        </div>
-    </div>
-
-
-    -->
-
-
-
+            </nav>
+            <nav class="row">
+                <div class="container-fluid d-flex justify-content-center py-2">
+                    <p>© Copyright 2023</p>
+                </div>
+            </nav>
+        </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script>
-
+        <script src="script.js"></script>
+    </div>
 </body>
 
 </html>

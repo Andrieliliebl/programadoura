@@ -72,17 +72,19 @@ nav {
     padding-bottom: 4vh;
 }
 
+
+
 /*HERO*/
 
 .hero {
     padding-top: 15vh;
-    padding-bottom: 15vh;
     height: 100%;
 }
 
-.hero h5 {
+.hero p {
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: .1rem;
+    width: 75%;
+    letter-spacing: .5rem;
     padding: 0;
     padding-top: 20vh;
     text-align: end;
@@ -91,82 +93,109 @@ nav {
 .hero h1 {
     /*ideias criativas*/
     font-family: 'Lucidity';
+    font-size: 5rem;
     font-weight: 500;
     letter-spacing: .5rem;
     line-height: .9;
 }
 
-.hero h3 {
+.hero h2 {
     /*transformo*/
     font-family: 'PP Gatwick', sans-serif;
+    font-size: 8vh;
     font-weight: 500;
     letter-spacing: .5rem;
     line-height: 1;
 }
 
-.hero h2 {
+
+.hero h3 {
     /*realidade digital*/
     font-family: 'the-seasons';
+    font-size: 12vh;
     font-weight: 400;
-    letter-spacing: .8rem;
 }
 
-.hero spam {
+.hero h4 {
     /*em*/
     font-family: 'PP Gatwick', sans-serif;
     letter-spacing: 1rem;
-    font-weight: 300;
+    font-size: medium;
+    font-weight: 600;
     text-align: end;
     align-items: end;
 }
 
 /*HERO MOBILE*/
 @media screen and (max-width: 768px) {
-
     .hero {
-        padding-top: 10vh;
-        padding-bottom: 15vh;
+        padding-top: 13vh;
         height: 100%;
     }
 
-    .hero h5 {
-        font-size: .8rem;
+    .hero p {
+        font-family: 'Open Sans', sans-serif;
+        width: 75%;
+        letter-spacing: .5rem;
+        padding: 0;
+        padding-top: 20vh;
+        text-align: end;
     }
 
     .hero h1 {
         /*ideias criativas*/
-        font-size: 1.5rem;
-    }
-
-    .hero h3 {
-        /*transformo*/
-        font-size: 1.5rem;
+        font-family: 'Lucidity';
+        font-size: 8vh;
+        font-weight: 500;
+        letter-spacing: .5rem;
+        line-height: .9;
     }
 
     .hero h2 {
-        /*realidade digital*/
-        font-size: 1.6rem;
+        /*transformo*/
+        font-family: 'PP Gatwick', sans-serif;
+        font-size: 8vh;
+        font-weight: 500;
         letter-spacing: .5rem;
+        line-height: 1;
     }
 
-    .hero spam {
-        /*em*/
-        font-size: 0.5rem;
+
+    .hero h3 {
+        /*realidade digital*/
+        font-family: 'the-seasons';
+        font-size: 12vh;
+        font-weight: 400;
     }
+
+    .hero h4 {
+        /*em*/
+        font-family: 'PP Gatwick', sans-serif;
+        letter-spacing: 1rem;
+        font-size: medium;
+        font-weight: 600;
+        text-align: end;
+        align-items: end;
+    }
+
 }
 
+
 /*ABOUT ME */
+
 .about-me {
-    padding-top: 20vh;
+    padding-top: 15vh;
     height: 100%;
 }
 
 .text-tittle h1 {
     font-family: 'Lucidity';
-    font-size: 4rem;
+    font-size: 6vh;
     font-weight: 400;
     letter-spacing: .4rem;
-    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
 
 }
 
@@ -177,7 +206,6 @@ nav {
     line-height: 2;
     padding: 0 20vh;
     text-align: center;
-    padding-bottom: 5vh;
 }
 
 .intro-skills {
@@ -187,49 +215,32 @@ nav {
     text-align: center;
 }
 
-.intro-skills spam {
-    line-height: 3rem;
-    font-size: 2rem;
-}
-
-.dot {
-    font-family: 'Lucidity';
-    font-weight: 900;
-    font-size: 3vh;
-}
-
-.lucidity {
-    font-family: 'Lucidity';
-}
-
-.seasons {
-    font-family: 'the-seasons';
-    font-weight: 900;
-}
-
-.open {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-}
-
-.gatwick {
+.abilities-tittle h1 {
     font-family: 'PP Gatwick', sans-serif;
+    font-size: 3vh;
     font-weight: 900;
+    letter-spacing: .5rem;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
-/*ABOUT ME MOBILE*/
-@media screen and (max-width: 768px) {
+.skills {
+    padding-left: 30vh;
+    padding-right: 30vh;
+}
 
-    .text-tittle h1 {
-        font-family: 'Lucidity';
-        font-size: 1.5rem;
-    }
-
-    .text-content p {
-        padding: 0 2vh;
-        font-size: 1rem;
-    }
-
+.skill p {
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: .1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
 }
 
 /*PROJETOS*/
@@ -240,18 +251,18 @@ nav {
 
 .projects-tittle h1 {
     font-family: 'Lucidity';
-    font-size: 4rem;
+    font-size: 6vh;
     font-weight: 400;
     letter-spacing: .4rem;
     display: flex;
     justify-content: center;
-    padding-bottom: 3rem;
+    padding: 5vh;
 }
 
-.botton {
-    border-style: solid;
-    border-color: #948B86;
+.dev-cards {
+    padding-top: 10vh;
 }
+
 
 .card-style {
     background-image: linear-gradient(to bottom right, #948B86, #D5DFDE);
@@ -259,89 +270,57 @@ nav {
     padding: 0;
 }
 
-/*PROJECTS MOBILE*/
-@media screen and (max-width: 768px) {
-
-    .projects-tittle h1 {
-        font-size: 1.5rem;
-        padding: 1vh;
-    }
-
-    .dev-cards {
-        padding-top: 1.5rem;
-        justify-content: center;
-    }
-
+.my-resume-button {
+    padding-top: 18vh;
 }
 
-/*CURRICULO*/
-
-.my-resume {
-    padding-top: 20vh;
-    height: 100%;
-    padding-bottom: 20vh;
+.my-resume-button a {
+    background-image: linear-gradient(to bottom right, #948B86, #D5DFDE);
+    padding: 3vh;
 }
 
-.resume-tittle {
+.my-resume-button h1 {
+    font-family: 'the-seasons';
+    font-size: 3vh;
+    font-weight: 900;
+    padding-top: 1vh;
+}
+
+.botton {
+    background-color: #fffcda;
+}
+
+.contact-tittle h1 {
     font-family: 'Lucidity';
-    font-size: 4rem;
+    font-size: 3vh;
+    font-weight: 400;
+    letter-spacing: .2rem;
+}
+
+.contact-section {
+    padding-top: 5vh;
+}
+
+.contact-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+}
+
+.contact-tittle-h4 h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
     font-weight: 400;
     letter-spacing: .1rem;
-    padding-bottom: 3rem;
 }
 
-.card-container {
-    padding-top: 10vh;
+.contact-button {
+    background-image: linear-gradient(to bottom left, #fffcda, #f2e1f7, #fffcda, #ffd6c7);
 }
 
-.resume-card {
-    background-image: linear-gradient(to bottom left, #948B86, #D5DFDE);
-    border: none;
+.contact-button p {
+    margin: 0;
 }
-
-.card-tittle {
-    font-family: 'the-seasons';
-    font-weight: 900;
-}
-
-.card-text {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.card-link {
-    font-family: 'PP Gatwick', sans-serif;
-    font-weight: 900;
-    text-decoration: none;
-    color: BLACK;
-}
-
-/*CURRICULO MOBILE*/
-
-@media screen and (max-width: 768px) {
-
-    .resume-tittle {
-        font-size: 1.5rem;
-        padding: 1vh;
-    }
-
-    .card-tittle {
-        font-size: 1rem;
-    }
-
-    .card-text {
-        font-size: 0.8rem;
-    }
-
-    .card-link a {
-        display: flex;
-        justify-content: start;
-        padding: 0;
-        margin: 0;
-    }
-
-}
-
-/*footer*/
 
 .footer-name h1 {
     font-family: 'the-seasons';

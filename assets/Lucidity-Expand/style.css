@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Lucidity';
+    src: local('Lucidity Expand'), local('Lucidity-Expand'),
+        url('Lucidity-Expand.woff2') format('woff2'),
+        url('Lucidity-Expand.woff') format('woff'),
+        url('Lucidity-Expand.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
