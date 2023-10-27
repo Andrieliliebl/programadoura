@@ -23,6 +23,10 @@
         font-size: .8em;
     }
 
+    .mobile-titles h1 {
+        font-size: 2em; 
+    }
+
     /*---------------------------------------------------------ABOUT ME*/
 
     .my-about {
@@ -75,6 +79,10 @@
 
     .my-buttons {
         font-size: 1em;
+    }
+
+    .mobile-titles h1 {
+        font-size: 3em; 
     }
 
     /*---------------------------------------------------------ABOUT ME*/
@@ -130,6 +138,10 @@
         font-size: 1em;
     }
 
+    .mobile-titles h1 {
+        font-size: 4em; 
+    }
+
     /*---------------------------------------------------------ABOUT ME*/
 
     .my-about {
@@ -167,7 +179,7 @@
     }
 
     .my-titles h2 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .my-titles h1 {
@@ -180,6 +192,10 @@
 
     .my-buttons {
         font-size: 1.8em;
+    }
+
+    .mobile-titles h1 {
+        font-size: 5em; 
     }
 
     /*---------------------------------------------------------ABOUT ME*/
@@ -237,7 +253,9 @@
     .my-buttons {
         font-size: 2em;
     }
-    
+    .mobile-titles h1 {
+        font-size: 7em; 
+    }
     /*---------------------------------------------------------ABOUT ME*/
     
     /*---------------------------------------------------------PROJECTS*/
