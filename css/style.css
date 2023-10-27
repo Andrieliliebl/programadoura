@@ -12,7 +12,7 @@
 .my-body {
     background: rgb(255, 244, 211);
     background-image: linear-gradient(to bottom, #E2edf3, #F5E4E0, #EBEAE6, #F9EFDD, #EBEAE6, #E2EDF3), url("/programadoura/assets/noise.svg");
-    padding: 2em;
+    padding: 1em;
 }
 
 /*---------------------------------------------------------NAV*/
