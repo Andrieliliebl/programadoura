@@ -1,0 +1,171 @@
+/*------------------------------------------------------------------XS*/
+@media screen and (min-width:1px) and (max-width: 375px) {
+
+    /*---------------------------------------------------------HERO*/
+    .my-hero {
+        padding-top: 28vh;
+        padding-bottom: 20vh;
+    }
+
+    .my-titles h2 {
+        font-size: 1em;
+    }
+
+    .my-titles h1 {
+        font-size: 1em;
+    }
+
+    .my-contents p {
+        font-size: 1.3em;
+    }
+
+    .my-buttons {
+        font-size: .8em;
+    }
+
+    /*---------------------------------------------------------ABOUT ME*/
+
+    .my-about {
+        padding-top: 16vh;
+        padding-bottom: 10vh;
+    }
+
+    .about-me-skills {
+        font-size: 1em;
+    }
+
+    /*---------------------------------------------------------PROJECTS*/
+
+    .my-card {
+        margin-bottom: 3em;
+    }
+
+    /*---------------------------------------------------------FOOTER*/
+    .footer-name h1 {
+        font-size: 1.2em;
+        padding-bottom: .5em;
+    }
+
+    .my-copy {
+        padding-bottom: 0;
+    }
+}
+
+/*------------------------------------------------------------------XS*/
+
+@media screen and (min-width:376px) and (max-width: 430px) {
+
+    /*---------------------------------------------------------HERO*/
+    .my-hero {
+        padding-top: 30vh;
+        padding-bottom: 30vh;
+    }
+
+    .my-titles h2 {
+        font-size: 1.1em;
+    }
+
+    .my-titles h1 {
+        font-size: 2.2em;
+    }
+
+    .my-contents p {
+        font-size: 1.5em;
+    }
+
+    .my-buttons {
+        font-size: 1em;
+    }
+
+    /*---------------------------------------------------------ABOUT ME*/
+
+    .my-about {
+        padding-top: 16vh;
+        padding-bottom: 10vh;
+    }
+
+    .about-me-skills {
+        font-size: .9em;
+    }
+
+    /*---------------------------------------------------------PROJECTS*/
+
+    .my-card {
+        margin-bottom: 3em;
+    }
+
+    /*---------------------------------------------------------FOOTER*/
+    .footer-name h1 {
+        font-size: 1.5em;
+        padding-bottom: .5em;
+    }
+
+    .my-copy {
+        padding-bottom: 0;
+    }
+}
+
+/*------------------------------------------------------------------SM*/
+@media screen and (min-width:431px) and (max-width: 576px) {
+
+    /*---------------------------------------------------------HERO*/
+    .my-hero {
+        padding-top: 30vh;
+        padding-bottom: 30vh;
+    }
+
+    .my-titles h2 {
+        font-size: 1.1em;
+    }
+
+    .my-titles h1 {
+        font-size: 2.2em;
+    }
+
+    .my-contents p {
+        font-size: 1.5em;
+    }
+
+    .my-buttons {
+        font-size: 1em;
+    }
+
+    /*---------------------------------------------------------ABOUT ME*/
+
+    .my-about {
+        padding-top: 16vh;
+        padding-bottom: 10vh;
+    }
+
+    .about-me-skills {
+        font-size: .9em;
+    }
+
+    /*---------------------------------------------------------PROJECTS*/
+
+    .my-card {
+        margin-bottom: 3em;
+    }
+
+    /*---------------------------------------------------------FOOTER*/
+    .footer-name h1 {
+        font-size: 1.5em;
+        padding-bottom: .5em;
+    }
+
+    .my-copy {
+        padding-bottom: 0;
+    }
+}
+
+/*------------------------------------------------------------------MD*/
+@media screen and (min-width:577px) and (max-width: 768px) {}
+
+/*------------------------------------------------------------------LG*/
+@media screen and (min-width:769px) and (max-width: 992px) {}
+
+/*------------------------------------------------------------------XL*/
+@media screen and (min-width:993px) and (max-width: 1200) {}
+
+/*------------------------------------------------------------------XXL*/
+@media screen and (min-width:1201px) and (max-width: 1400) {}
