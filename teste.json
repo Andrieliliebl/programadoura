@@ -1,0 +1,14 @@
+[
+{
+  "id": 1,
+  "mainImage": "https://images.pexels.com/photos/1499517/pexels-photo-1499517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "name": "Batom",
+  "value": 8.50
+},
+{
+  "id": 2,
+  "mainImage": "https://images.pexels.com/photos/1499517/pexels-photo-1499517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "name": "Base",
+  "value": 8.98
+}
+]
